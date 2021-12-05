@@ -98,7 +98,7 @@ local function setVirtualText(node)
 			return
 		end
 
-        vim.api.nvim_buf_set_virtual_text(0, vim.g.context_vt_namespace, targetLineNumber, {{ virtualText, 'Comment' }}, {});
+        vim.api.nvim_buf_set_virtual_text(0, vim.g.context_vt_namespace, targetLineNumber, {{ virtualText, 'ContextVT' }}, {});
     end
 
 end
